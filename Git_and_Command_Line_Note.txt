@@ -1,0 +1,91 @@
+Git and Command Line Note
+
+Compare Files
+
+windows: use command prompt
+FC file1.js file2.js
+
+Mac: use bash
+diff -u file1.js file2.js 
+("-u" stands for unify output format, making output easier to read)
+
+git checkout XXXXXX(commit id)
+
+# converting a normal directory to git repository (you need to switch to that directory first)
+git init
+
+# view git commit histories
+git log
+(git log --graph --oneline master new_branch) to visualize the changes in the branch concisely
+** git log cannot show all commits, it can only show the parent commits for the current checkout commit
+
+# add file to the staging area 
+git add XXX(file name)
+
+# remove all file from staging area
+git reset
+# remove one specific file from staging area
+git reset XXX(file name)
+
+# commit changes: one command will commit all files in the staging area
+git commit
+git commit -m"my first commit"
+
+# see difference working directory and staging area
+git diff
+
+# see difference between staging area and repository
+git diff --staged
+
+# see difference between last two commits
+git diff commit1 commit2
+
+# create new branch
+git branch new_branch
+
+# check out the branch (change to anther branch)
+git checkout new_branch
+(use "git branch" command to see if checkout is successful)
+
+=> short cut for creating branch and checkout it
+git checkout -b new_branch
+
+# merge two branches
+git merge master new_branch
+(checkout to one of the branches want to merge first)
+
+# delete a branch
+git brach -d new_branch
+(the commit history won't be deleted)
+
+# resolve the merge conflict
+1. git merge --abort 
+(get all file back to the status before merge)
+2. figure out where is the conflict and change files
+3. git add new_file
+4. git status 
+(git will say conflicts fixed)
+
+
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
