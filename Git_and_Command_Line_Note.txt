@@ -66,8 +66,10 @@ git brach -d new_branch
 4. git status 
 (git will say conflicts fixed)
 
+#
+git pull contains two commands: git fetch and git merge
+git fetch is like creating a new branch to the master branch, which will be merged to master when git merge is ran
 
---
 
 
 
