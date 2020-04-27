@@ -1,0 +1,91 @@
+.content-wrapper,
+.right-side {
+  background-image: url("bg8.jpg");
+  background-color: #ffffff;
+}
+
+h3 {
+  font-family: "Hiragino Kaku Gothic Pro", "Osaka", Times, "Times New Roman", serif;
+  color: #25af98;
+}
+
+h4 {
+  font-family: "Hiragino Kaku Gothic Pro", "Osaka", Times, "Times New Roman", serif;
+  font-size: 24px;
+}
+
+h5 {
+  font-family: "Hiragino Kaku Gothic Pro", "Osaka", Times, "Times New Roman", serif;
+  /*color: #25af98;*/
+}
+
+p {
+  font-family: "Hiragino Kaku Gothic Pro", "Osaka", Times, "Times New Roman", serif;
+}
+
+.nav-tabs {
+  color: #25af98;
+  font-family: "Hiragino Kaku Gothic Pro", "Osaka", Times, "Times New Roman", serif;
+}
+
+.nav-tabs-custom .nav-tabs li.active:hover a, .nav-tabs-custom .nav-tabs li.active a {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-tabs-custom .nav-tabs li.active {
+    border-top-color: #FFF;
+}
+
+/* logo */
+.skin-blue .main-header .logo {
+  font-family: "Hiragino Kaku Gothic Pro", "Osaka", Times, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 14px;
+  background-color: #082D42;
+  letter-spacing: 2px;
+}
+                                
+/* logo when hovered */
+.skin-blue .main-header .logo:hover {
+  font-weight: normal;
+  background-color: #082D42;
+}
+                                
+/* navbar (rest of the header) */
+.skin-blue .main-header .navbar {
+  background-color: #25af98;
+}        
+                                
+/* main sidebar */
+.skin-blue .main-sidebar {
+  background-color: #082D42;
+}
+                                
+/* active selected tab in the sidebarmenu */
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+  background-color: #25af98;
+}
+
+/* other links in the sidebarmenu */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a{
+  background-color: #082D42;
+  /* color: #000000;*/
+}
+                                
+/* other links in the sidebarmenu when hovered 
+.skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+  background-color: #142F4D;
+}*/
+
+/* toggle button when hovered  */                    
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+  background-color: #1D8271;
+}
+
+/*goal setting checkboxes*/
+#checkGroup, #most_area_1, #least_area_1, #result_feedback, #emotion1, #emotion2, #emotion3{
+  font-size: 14px;
+  font-family: 'Hiragino Kaku Gothic Pro', Helvetica, sans-serif;
+  font-weight: normal;
+}
